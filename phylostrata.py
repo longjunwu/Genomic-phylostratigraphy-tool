@@ -53,7 +53,7 @@ for sequence in all_seq_split:
 	
 	
 
-################### STEP 2, EXTRACT TAXONOMY LINEAGE FROM THE BLAST RESULTS #######################
+################### STEP 2: EXTRACT TAXONOMY LINEAGE FROM THE BLAST RESULTS #######################
 
 
 # In this step, the NCBI taxonomic ID [Accession Number] of each hit in the blast results will be extracted
@@ -194,7 +194,7 @@ for query_result in taxon_result_split:
     print
     output_result_phylostrata
 
-########## APPENDIX	##########
+########## APPENDIX ##########
 
 # APPENDIX 1:below is the shell script "download.sh" that download and prepare "gi_taxid_prot.dmp" from NCBI
 
@@ -233,7 +233,7 @@ wget "${NCBI}${TAXID}" && \
 exit 0
 '''
 
-# APPENDIX 锟? below is the shell script of taxon_tid.sh
+# APPENDIX 2 below is the shell script of taxon_tid.sh
 '''		 
 
 #!/bin/bash
