@@ -2,4 +2,4 @@
 Python script used in the manuscript "Gene expression does not support the developmental hourglass model in animals with spiralian development".
 
 Longjun Wu
-Email: longjunwu@rochester.edu
+Email: longjun.wu@yale.edu
